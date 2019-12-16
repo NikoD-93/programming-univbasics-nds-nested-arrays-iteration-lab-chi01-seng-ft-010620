@@ -76,6 +76,7 @@ def total_even_pairs(src)
    if  innerarray[0] %2 == 0 && innerarray[1] %2 == 0
       result += innerarray[0] + innerarray[1]
 end
+row_index += 1 
 end
 result 
 end
